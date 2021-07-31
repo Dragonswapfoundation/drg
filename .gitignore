@@ -1,8 +1,1 @@
-node_modules
-package-lock.json
-
-#hardhat files
-cache
-artifacts
-.env
-.serverless
+.DS_Store
