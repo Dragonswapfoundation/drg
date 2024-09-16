@@ -37,11 +37,7 @@ We wish to improve the output of Buidler(, and include Textile). You, as a devel
 
 This tutorial will get you up and running with the Greeter contract from the Buidler sample project. When you've done this once, you should have a feel for how to make your Đapps easily.
 
-### OS Support
 
-- MacOS
-- Linux
-- _The project has only been tested on MacOS and Linux. It should, in theory, work on Windows too. Don't hesitate to reach out if you experience problems._
 
 ## ⚙️ Setup new project
 
@@ -278,11 +274,11 @@ export default App;
 
 [📚 You can see a full working example of the Greeter sample here.](https://github.com/symfoni/buidler-react-boilerplate)
 
-**Thanks for completing our tutorial! 🥳**
+
 
 We hope you can use this to write Ethereum applications more efficiently 📈 . If you have any feedback, good or bad, please don't hesitate to ping us at [@\_robertosnap](https://twitter.com/_robertosnap/)🐦 or with an Issue here on Github.
 
-# Tutorial 2: Create an ERC20 token with Symfoni
+
 
 This tutorial aims to create a view where the user can create new ERC20 tokens using a web app and how easy it is to do with Symfoni 🎻.
 
@@ -402,13 +398,13 @@ export default App;
 
 In `frontend/src/components/MyToken.tsx` the smart contract is available like any regular typed object:
 
-![](https://i.imgur.com/HIceyBc.gif)
+
 
 We check our balance through the myToken.balanceOf() function. We see that the return value is a BigNumber, so before outputting it to console, we format it with ethers utils.
 
 Let's name our contract and deploy it. Our wallet provider should pop up with confirmations to deploy and transfer this new token.
 
-![](https://i.imgur.com/Ne7DMQx.gif)
+
 
 It couldn't be easier!
 
